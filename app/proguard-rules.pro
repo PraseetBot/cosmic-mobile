@@ -1,0 +1,4 @@
+-keep class com.cosmic.mobile.** { *; }
+-keep class * extends com.google.protobuf.GeneratedMessageLite { *; }
+-dontwarn com.google.android.material.**
+-keep class androidx.compose.** { *; }
